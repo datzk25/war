@@ -1,6 +1,18 @@
 {
-    "users": {
-        "user1": { "password": "pass123", "key": "key123" },
-        "user2": { "password": "pass456", "key": "key456" }
-    }
+    "users": [
+        {
+            "username": "admin",
+            "password": "admin123",
+            "key": "key123",
+            "expires": "2025-12-31",
+            "ip": ""
+        },
+        {
+            "username": "user1",
+            "password": "password1",
+            "key": "key456",
+            "expires": "2025-06-30",
+            "ip": ""
+        }
+    ]
 }
