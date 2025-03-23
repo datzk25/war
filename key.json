@@ -1,6 +1,6 @@
 {
-    "keys": {
-        "key123": { "expires": "2025-04-01T00:00:00Z", "ip": null },
-        "key456": { "expires": "2025-04-05T00:00:00Z", "ip": null }
+    "users": {
+        "user1": { "password": "pass123", "key": "key123" },
+        "user2": { "password": "pass456", "key": "key456" }
     }
 }
